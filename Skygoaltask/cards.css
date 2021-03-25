@@ -1,0 +1,92 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.card{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 100px 80px 60px;
+    grid-template-areas: "img" "txt";
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    background-color: rgb(36, 22, 22);
+
+
+    
+}
+.cardimg{
+    grid-area: img;
+    background: url("images/cal.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cardimg1{
+    grid-area: img;
+    background: url("images/walk.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cardimg2{
+    grid-area: img;
+    background: url("images/workout.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cardimg3{
+    grid-area: img;
+    background: url("images/sleep.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card__content {
+    grid-area: txt;
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.card:hover{
+    background-color: black;
+}
+.cardimg01{
+    grid-area: img;
+    background: url("images/run.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cardimg11{
+    grid-area: img;
+    background: url("images/green.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cardimg21{
+    grid-area: img;
+    background: url("images/yoga.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cardimg31{
+    grid-area: img;
+    background: url("images/water.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card__content1 {
+    grid-area: txt;
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 15px;
+    
+}
